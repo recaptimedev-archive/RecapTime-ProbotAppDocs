@@ -1,2 +1,8 @@
 site_name: Recap Time Probot App User Manual
-site_url: https://probot-docs.gitlab.io
+nav:
+    - Home: index.md
+    - 'Getting Started': getting-started.md
+    - About: about.md
+    - 
+theme: readthedocs
+repo_url: https://gitlab.com/MadeByThePinsTeam/probot-docs.recaptime.tk
