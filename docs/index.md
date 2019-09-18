@@ -1,21 +1,12 @@
-# Welcome to MkDocs
+# Welcome to Recap Time Probot App Documentation site!
 
-This is a test site hosted on [GitLab Pages](https://pages.gitlab.io). You can
-[browse its source code](https://gitlab.com/pages/mkdocs), fork it and start
-using it on your projects.
+The whole documentation site is hosted on GitLab Pages using MKdocs to power the site and Cloudflare for CDN caching and DDoS mitigation,
+among other things.
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+While we code our Probot GitHub app, this documentaion and the codebase itself are currently and still **work in progress**, so in case you have inquiries,
+you can create an new ticket in our main app repo (in GitLab or GitHub) or in this repo (only on GitLab).
 
-## Commands
+# Wrong number?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Don't worry! You can return to [the main repo](https://gitlab.com/MadeByThePinsTeam-DevTeam/recaptime-probotapp) ([Using GitHub](https://github.com/MadeByThePinsHub/RecapTime-ProbotApp)
+or [Glitch instead](https://glitch.com/edit/#!/recaptime-probotapp)? We got you there.) and continue coding or start remixing the project.
