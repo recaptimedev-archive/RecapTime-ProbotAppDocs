@@ -5,7 +5,7 @@ nav:
     - 'User Guide': 
         - 'Set-up and testing': user-guide/getting-started
         - 'Configuration': user-guide/config
-        - 'Probot Apps': user-guide/probot-apps/
+        - 'Probot Apps': user-guide/probot-apps
     - 'Help and Support':
         - 'Get Support': help/get-support
         - 'Contribution 101': help/contribution
