@@ -13,7 +13,10 @@ nav:
         - 'About this site': about
     - 'Community':
         - Telegram: https://t.me/CodersChat_byMPTeam
-        - Changelogs: changelogs
+        - Changelogs: about/changelogs
 theme: material
+edit_uri: blob/master/docs/
+site_author: Documentation Contributors
 repo_url: https://gitlab.com/MadeByThePinsTeam/probot-docs.recaptime.tk
 copyright: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Recap Time Probot App Docs</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://probot-docs.recaptime.tk" property="cc:attributionName" rel="cc:attributionURL">Andrei Jiroh, the Pins team and the contributors</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://probot-docs.recaptime.tk/about/permissions-board.md" rel="cc:morePermissions">https://probot-docs.recaptime.tk/about/permissions-board.md</a>.
+use_directory_urls: true
