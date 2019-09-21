@@ -31,4 +31,11 @@ markdown_extensions:
     - toc:
         permalink: "#"
         separator: "_"
-    
+extra:
+  social:
+    - type: 'gitlab'
+      link: 'https://gitlab.com/MadeBYThePinsTeam-DevLabs/RecapTime-Staff'
+    - type: 'twitter'
+      link: 'https://twitter.com/RecapTime'
+    - type: 'blog'
+      link: 'https://blog.recaptime.tk'
