@@ -1,4 +1,7 @@
-# Setting up the bot for your GitHub repo
+---
+title: Setting up the bot for your GitHub repository or organization
+summary: Setting up the bot for your GitHub repository and/or organization has never been easy with this guided step-to-step instructions.
+---
 
 In this tutorial, we'll start the set up the bot by installing the app to your GitHub account (or organization) on the basics then configure it later using the `recaptime-config.yml` file.
 
@@ -8,6 +11,8 @@ In installing an GitHub app to your personal account or to your organization, yo
 
 * an GitHub account ([You can set it up if you don't have it.](https://github.com/join) By creating an account, you must agree to [GitHub ToS](http://help.github.com/terms/) and [GitHub Privacy Policy](http://help.github.com/privacy/).)
 * an GitHub repository (Make sure you have the right permissions to manage integrations to the repo you want to install. You can create your own later or in advance before the installation progress.)
-* an GitHub organization (you can create your own later)
+* an GitHub organization (you can create your own during the account creation progress or later)
 
 ## Installation
+
+Before we dig into the installation progress

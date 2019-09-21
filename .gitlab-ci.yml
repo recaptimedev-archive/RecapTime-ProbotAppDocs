@@ -5,6 +5,7 @@ before_script:
   # Add your custom theme if not inside a theme_dir
   # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
   - pip install mkdocs-material
+  - pip install mkdocs-redirects
 
 pages:
   script:
