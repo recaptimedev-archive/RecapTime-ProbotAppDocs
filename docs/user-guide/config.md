@@ -3,8 +3,76 @@ title: Configuring the bot
 summary: An recaptime-config.yml file is need to make some features work such as Stale and others.
 ---
 
+To use some features that the GitHub bot has
+
 ## The Template
 
 ```yml
+# The following code must be use in your .github/recaptime-config.yml file
+# to avoid the messy weekends (aka "the bot isn't working") on your repo
+# where this app installed.
 
+# Part 1: probot-stale
+
+# Number of days of inactivity before an Issue or Pull Request becomes stale
+daysUntilStale: 30
+
+# Number of days of inactivity before an Issue or Pull Request with the stale label is closed.
+# Set to false to disable. If disabled, issues still need to be closed manually, but will remain marked as stale.
+daysUntilClose: 7
+
+# Only issues or pull requests with all of these labels are check if stale. Defaults to `[]` (disabled)
+onlyLabels: []
+
+# Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
+exemptLabels:
+  - pinned
+  - security
+  - help needed
+
+# Set to true to ignore issues in a project (defaults to false)
+exemptProjects: false
+
+# Set to true to ignore issues in a milestone (defaults to false)
+exemptMilestones: false
+
+# Set to true to ignore issues with an assignee (defaults to false)
+exemptAssignees: false
+
+# Label to use when marking as stale
+staleLabel: stale
+
+# Comment to post when marking as stale. Set to `false` to disable
+markComment: >
+  This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+
+# Comment to post when removing the stale label.
+# unmarkComment: >
+#   Your comment here.
+
+# Comment to post when closing a stale Issue or Pull Request.
+# closeComment: >
+#   Your comment here.
+
+# Limit the number of actions per hour, from 1-30. Default is 30
+limitPerRun: 30
+
+# Limit to only `issues` or `pulls`
+# only: issues
+
+# Optionally, specify configuration settings that are specific to just 'issues' or 'pulls':
+# pulls:
+#   daysUntilStale: 30
+#   markComment: >
+#     This pull request has been automatically marked as stale because it has not had
+#     recent activity. It will be closed if no further activity occurs. Thank you
+#     for your contributions.
+
+# issues:
+#   exemptLabels:
+#     - confirmed
+
+# Part 2: 
 ```
