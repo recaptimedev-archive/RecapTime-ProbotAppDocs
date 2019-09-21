@@ -22,11 +22,13 @@ copyright: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><
 use_directory_urls: true
 plugins:
     - search
-markdown_extensions:
-    - toc:
-        permalink: "#"
-        separator: "_"
     - redirects:
         redirect_maps:
             'about/probot': 'help/about-probot'
             'changelogs': 'about/changelogs'
+    - git-committers
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        separator: "_"
+    
