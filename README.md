@@ -5,12 +5,11 @@ repo works in action at <https://probot-docs.recaptime.tk>.
 
 > **An quick reminder for visitors:**
 >
-> This documentation repository is currently **WORK IN PROGRESS** so your output and help in improving the documentation
- is an big thanks from us!
+> This documentation repository is currently **WORK IN PROGRESS** so your output and help in improving the documentation is an big thanks from us!
 
 ## Contributing to Documentation project
 
 See `CODE_OF_CONDUCT.md` and [Contribution guidelines and help](https://probot-docs.recaptime.tk/help/contributon) for details before proceeding. Alternatively, you can [fork](https://gitlab.com/MadeByThePinsTeam-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE4Mzk2OTFdfQ==
+eyJoaXN0b3J5IjpbLTExMjk0NjY2NTNdfQ==
 -->
